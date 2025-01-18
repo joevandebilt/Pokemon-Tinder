@@ -5,8 +5,10 @@
 
     //Include our custom site objects
     require_once($_SERVER['DOCUMENT_ROOT'].'/api/Objects/Object.Swipe.php');
+    require_once($_SERVER['DOCUMENT_ROOT'].'/api/Objects/Object.Pokemon.php');
     require_once($_SERVER['DOCUMENT_ROOT'].'/api/Objects/Object.Response.php');
 
     //Include Data Interfaces
     require_once($_SERVER['DOCUMENT_ROOT'].'/api/DI/DI.Swipe.php');
+    require_once($_SERVER['DOCUMENT_ROOT'].'/api/DI/DI.Pokemon.php');
 ?>

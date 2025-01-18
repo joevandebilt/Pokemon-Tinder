@@ -14,6 +14,7 @@
     //Include Major Classes
     require_once($_SERVER['DOCUMENT_ROOT'].'/api/Classes/Class.Config.php');
     require_once($_SERVER['DOCUMENT_ROOT'].'/api/Classes/Class.MySQL.php');
+    require_once($_SERVER['DOCUMENT_ROOT'].'/api/Classes/Class.Cache.php');
 
     //Main PHP Scripts
     require_once($_SERVER['DOCUMENT_ROOT'].'/api/Classes/Class.Site-Classes.php');

@@ -1,0 +1,52 @@
+.content-window {
+    height: 90vh;
+    position: relative;
+    display: inline-block;
+}
+
+.card {
+    z-index: 1;
+    height: 100%;
+}
+
+.card-images {
+    display: inline-block;
+    position: relative;
+}
+
+.card-image-container {
+    margin-top: 75px;
+    width: 100vw;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-image-controls {
+    z-index: 3;
+    padding: 0 6px;
+    position: absolute;
+    top: 330px;
+    width: 100%;
+}
+
+.card-meta {
+    position: absolute;
+    bottom: 15vh;
+    padding-left: 24px;
+}
+
+.controls {
+    z-index: 2;
+    padding: 12px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.controls > .btn {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
